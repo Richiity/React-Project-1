@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## First page
 
-First page you are met with is the Game Selector drop down. The picture of Anya is for fun *heh*
+First page you are met with is the Game Selector drop down. The picture of Anya is for fun *heh* .
 This will allow you to select a type of game and its item(s) through `GameSelector.tsx`.
 
 <img width="634" alt="image" src="https://github.com/Richiity/React-Project-1/assets/39109271/e3e499bc-00fd-49b0-9e11-d76947d403a5">
