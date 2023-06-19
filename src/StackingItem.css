@@ -1,0 +1,13 @@
+.Itembox {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+button{
+    background-color: transparent;
+    border:none;
+    font-size: 25px;
+}
