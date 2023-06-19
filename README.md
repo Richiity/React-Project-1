@@ -1,41 +1,35 @@
-# Getting Started with Create React App
+# About this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was an assignment from my Web Development course to understand how to work with states, hooks and props in react.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` or `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## First page
 
-### `npm test`
+First page you are met with is the Game Selector drop down. The picture of Anya is for fun *heh*
+This will allow you to select a type of game and its item(s) through `GameSelector.tsx`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="634" alt="image" src="https://github.com/Richiity/React-Project-1/assets/39109271/e3e499bc-00fd-49b0-9e11-d76947d403a5">
 
-### `npm run build`
+## Sample 1
+Sample 1 shows examples of state management through a counter type class in `StackingItem.tsx`
+As well as another state management example through a active / inactive bool type in `BinaryItem.tsx`
+All of the items can have their states reset with the `reset.tsx` button below.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="637" alt="image" src="https://github.com/Richiity/React-Project-1/assets/39109271/1cb21ca0-c8ff-4967-ac75-eb20a0358eb2">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Sample 2
+Sample 2 continues our examples of state management and using hooks in react. 
+In this particular sample, we have an item(s) that can change it's form depending on the selection in `ExclusiveItem.tsx`
+The concept was evolving item or upgraded versions of the item.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="635" alt="image" src="https://github.com/Richiity/React-Project-1/assets/39109271/bdc56025-c042-4fa9-9e4d-586198594f98">
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
+<img width="640" alt="image" src="https://github.com/Richiity/React-Project-1/assets/39109271/a266ee76-df89-4c90-ae41-2c2511da003c">
